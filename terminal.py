@@ -21,6 +21,8 @@ def terminal():
         with open(startup, "r") as file:
             for line in file:
                 args = line.split()
+                if not args:
+                    continue
                 cmd = get_cmd(args[0])
                 if cmd:
                     cmd(args)
@@ -33,6 +35,8 @@ def terminal():
     while True:
         prompt = input(f"{sys_info.hostname}> ")
         args = prompt.split()
+        if not args:
+            continue
         cmd = get_cmd(args[0])
         if cmd:
             cmd(args)
