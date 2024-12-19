@@ -55,5 +55,5 @@ $ rmdir /temp/dir
 ```bash
 pytest tests/
 ```
-![Image alt](https://github.com/TheXomgs/ZZZShellEmu/raw/main/1/1.png)
+![Скриншот тестов](https://github.com/TheXomgs/ZZZShellEmu/blob/main/1.jpg?raw=true)
 
